@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-beige text-center font-serif">
       <header className="py-8">
-        <img src="/hero.jpg" alt="Huella Eterna" className="mx-auto max-w-4xl rounded-xl shadow-lg" />
+        <img src="/hero.png" alt="Huella Eterna" className="mx-auto max-w-4xl rounded-xl shadow-lg" />
       </header>
       <main className="px-6 py-10">
         <h1 className="text-4xl text-pastelBlue font-bold mb-4">Huella Eterna</h1>
