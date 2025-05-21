@@ -10,14 +10,17 @@ export default function Home() {
         </nav>
       </header>
 
-      <main className="flex-grow">
-        <section className="relative">
-          <img src="/hero.png" alt="Hero" className="w-full h-[400px] object-cover" />
-          <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center text-white">
-            <h1 className="text-5xl font-bold mb-4">Huella Eterna</h1>
-            <p className="text-xl">Descanso y amor para tu mascota</p>
-          </div>
-        </section>
+<div className="relative w-full h-[350px] md:h-[450px] lg:h-[500px] overflow-hidden shadow-lg">
+  <img
+    src="/hero.jpg"
+    alt="Huella Eterna"
+    className="absolute w-full h-full object-cover"
+  />
+  <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-white text-center px-4">
+    <h1 className="text-3xl md:text-5xl font-serif font-bold">Huella Eterna</h1>
+    <p className="mt-2 text-sm md:text-lg">Descanso y amor para tu mascota</p>
+  </div>
+</div>
 
         <section id="nosotros" className="py-12 px-6">
           <h2 className="text-3xl text-pastelBlue mb-4">Sobre nosotros</h2>
