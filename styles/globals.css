@@ -4,5 +4,5 @@
 @tailwind utilities;
 
 body {
-  font-family: serif;
+  @apply bg-beige;
 }
