@@ -20,18 +20,19 @@ export default function Home() {
         src="/logo.png"
         alt="Logo Huella Eterna"
         style={{
-          maxWidth: '280px',
-          marginBottom: '1.5rem',
-          backgroundColor: 'rgba(255,255,255,0.8)',
-          padding: '1rem',
-          borderRadius: '1rem',
+          maxWidth: '180px',
+          marginBottom: '1rem',
+          marginTop: '-3rem',
+          backgroundColor: 'rgba(255,255,255,0.7)',
+          padding: '0.8rem',
+          borderRadius: '0.8rem',
         }}
       />
-      <h1 style={{ fontSize: '2.8rem', color: '#1e3a8a', marginBottom: '0.5rem' }}>
+      <h1 style={{ fontSize: '2.5rem', color: '#1e3a8a', marginBottom: '0.5rem' }}>
         Huella Eterna
       </h1>
-      <p style={{ fontSize: '1.4rem', color: '#9f7e41', marginBottom: '2rem' }}>
-        Descanso y Amor para tu Mascota
+      <p style={{ fontSize: '1.3rem', color: '#000000', marginBottom: '2rem', maxWidth: '600px' }}>
+        Descanso y amor para tu mascota. Servicios de cremación con respeto, cariño y dedicación.
       </p>
       <a
         href="https://wa.me/5215512345678"
