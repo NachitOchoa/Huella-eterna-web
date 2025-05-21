@@ -3,7 +3,7 @@ export default function Home() {
     <main
       style={{
         minHeight: '100vh',
-        backgroundImage: 'url("/fondo-inicio.jpg")',
+        backgroundImage: 'url("/fondo-inicio.png")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         display: 'flex',
