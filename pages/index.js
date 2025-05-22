@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <Layout>
-      <section className="relative h-screen">
+      <section className="relative h-[60vh]">
         <Image src="/hero.png" layout="fill" objectFit="cover" alt="Perro y gato abrazados" />
         <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-start justify-center px-8">
           <h1 className="text-5xl text-white font-serif font-bold">Huella Eterna</h1>
