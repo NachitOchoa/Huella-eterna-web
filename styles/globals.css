@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Paw-print background on the main navigation */
+nav {
+  background-image: url('/foot.jpg');
+  background-repeat: repeat-x;
+  background-position: bottom center;
+  padding-bottom: 1rem;
+}
