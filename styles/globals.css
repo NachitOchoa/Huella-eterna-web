@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Paw-print background on the main navigation */
+/* Fondo de huellas en la navegación */
 nav {
-  background-image: url('/foot.jpg');
+  background-image: url('/paw.jpg');
   background-repeat: repeat-x;
   background-position: bottom center;
-  padding-bottom: 1rem;
+  padding-bottom: 1rem; /* Espacio para que las huellas no queden recortadas */
 }
